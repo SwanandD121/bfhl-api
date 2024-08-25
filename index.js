@@ -34,7 +34,7 @@ app.post('/api/bfhl', (req, res) => {
   }
 });
 
-app.get('/bfhl', (req, res) => {
+app.get('/api/bfhl', (req, res) => {
   res.json({ operation_code: 1 });
 });
 
